@@ -1,0 +1,111 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>My Portfolio</title>
+</head>
+<body>
+
+  <section id="welcome-section" class="welcome-section">
+    <h1 class="welcome-heading">Welcome to My Portfolio</h1>
+  </section>
+  
+  <section id="projects">
+    <div class="project-tile"></div>
+    <a href="#projects" class="project-link" style="color:teal;"><i class="fa fa-github" aria-hidden="true"></i>Html-CssProject Link</a>
+    <nav id="navbar" class="navbar">
+      <a href="https://t.me/yasaswini2005"><i class="fa fa-telegram" aria-hidden="true"></i>Telegram</a>
+      <a href="#projects"><i class="fa fa-github" aria-hidden="true"></i>Html-CssProject Link</a>
+      <a id="profile-link" href="" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i>LinkedIn Profile</a>
+      <a id="profile-link" href="https://github.com/yasaswini2005" target="_blank"><i class="fa fa-github" aria-hidden="true"></i>GitHub Profile</a>
+    </nav>
+  </section>
+
+</body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', sans-serif;
+}
+
+.welcome-section {
+  margin-top: 60px;
+  margin-left: 160px;
+  width: 80%;
+}
+
+.welcome-heading {
+  border: 2px solid black;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: azure;
+  height: 400px;
+  font-size: 60px;
+}
+
+#projects {
+  margin-top: -30px;
+  margin-left: 25%;
+  width: 60%;
+}
+
+.project-link {
+  border: 2px solid black;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  background-color: azure;
+  height: 100px;
+  font-size: 30px;
+  text-decoration: none;
+  margin-left: -10%;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  background-color: azure;
+  border: 2px solid black;
+  border-radius: 60px;
+  margin-top: 10px;
+  margin-left: -14%;
+}
+
+.navbar a {
+  display: flex;
+  justify-content: center;
+  color: teal;
+  text-decoration: none;
+  border-radius: 5px;
+  height: 25px;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    color: teal;
+  }
+}
+
+
+** end of undefined **
+

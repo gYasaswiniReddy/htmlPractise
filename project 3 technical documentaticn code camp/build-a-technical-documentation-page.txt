@@ -1,0 +1,181 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Technical Documentation: Things learned in 1 year - odd semester in (ZeroOne the code club)</title>
+</head>
+<body>
+    <main id="main-doc">
+        <section class="main-section" id="Section_1_C_language">
+            <header>Section 1 C language</header>
+            <p>BASICS </p>
+            <code> algorithms</code><br>
+            <code> flowcharts</code><br>
+            <code> conditional statements</code><br>
+            <code> iterative statements</code><br>
+            <code>precedence and associativity </code><br>
+            <p>More in-depth concepts</p>
+            <ul>
+                <li>Files</li>
+                <li> pointers</li>
+                <li>command line arguments</li>
+                <li>recursions</li>
+                <li>Note: Solve the problems from leetcode, hackerrank, and codechef-like problems and earning points and badges on each platform</li>
+            </ul>
+        </section>
+
+        <section class="main-section" id="Section_2_Git_open_source_and_git_hub_project_working">
+            <header>Section 2 Git open source and git hub project working</header>
+            <p>Operating in git bash</p>
+            <code> Using touch command: To Create and open files</code><br>
+            <code> nano: to open file editor in command line </code><br>
+            <code> gcc: to compile files in git bash</code><br>
+            <code> mkdir: to create folder in pc using git bash</code><br>
+            <code> rm-rf or rkdir: to delete folders</code><br>
+            <p>Doing projects in git (through git bash)</p>
+            <ul>
+                <li>git init: To initialize an empty repository </li>
+                <li> git clone space repository link (the repository link provided in github for your provided project)</li>
+                <li>git add .</li>
+                <li>git commit -m (to add commit message)</li>
+                <li>git push origin main</li>
+            </ul>
+        </section>
+        
+        <section class="main-section" id="Section_3_html-css">
+            <header>Section 3 html-css</header>
+            <p>Html (hyper text markup language )</p>
+            <code> Doctype html (for new version of html 5 representation)</code><br>
+            <code>meta tag(for specifying zoom to initial scale 100%) and character set to UTF-8  </code><br>
+            
+            <code> h1,h2,...h7 heading tags</code><br>
+            <code> p paragraph tag</code><br>
+            <code> division  partitioning of our code (div tag)</code><br>
+            <p>Css(cascading style sheets )</p>
+            <ul>
+                <li>basic stylings (background-color, font color)</li>
+                <li> image styling and audio controls changing (auto play )</li>
+                <li>iframes </li>
+                <li>Transitions </li>
+                <li>tables </li>
+            </ul>
+        </section>
+        
+        <section class="main-section" id="Section_4_Ms_office,co-space,3d_modelling,3d_printing">
+            <header>Section 4 Ms office,co-space,3d modelling,3d printing</header>
+            <p>Operating basic ms office tools</p>
+            <code>Ms word</code><br>
+<code>Power point</code><br>
+<code>Power bi</code><br>
+<code>Ms excel</code><br>
+<code>Ms one note</code><br>
+<code>Latex</code><br>
+
+            <p>co-space, 3d modelling 3d printing </p>
+            <ul>
+                <li>Co space</li>
+                <li> Building 3d environments (CoSpaces Edu is a platform that enables students to create their own interactive digital content using 3D creation tools and block-based coding through code blocks</li>
+                <li>3d modelling</li>
+                <li>Through platforms like Tinkercad, Ultimakercura, fusion 360</li>
+                <li>3d printing through Ultimaker cura and ender 3 printer  </li>
+            </ul>
+        </section>
+
+        <section class="main-section" id="Section_5_Data_structures">
+            <header>Section 5 Data structures</header>
+            <p>Primitive</p>
+            <code> int,float,char,double,pointer</code><br>
+            <code> Non primitive</code><br>
+            <code> array</code><br>
+            <code> linked list</code><br>
+            <code> stack and queue</code><br>
+            <p>Non-linear </p>
+            <ul>
+                <li>Graphs</li>
+                <li>trees</li>
+                <li>
+                    Data structures are essential for organizing and managing data efficiently within computer programs.
+                </li>
+                <li>Properly selected data structures help optimize memory usage</li>
+                <li>Choosing the right data structure allows for efficient access and retrieval of data, enabling faster algorithms and improved overall performance of applications.</li>
+            </ul>
+        </section>
+    
+    </main>
+    
+    <nav id="navbar">
+        <header>Things learned in 1 year - odd semester in ZeroOne the code club(Git hub profile creation, linked in, Code camp certification, Html and Css projects, C-language, Using git-bash, GitHub-operating open source platform } and academics(Ms office, co-space, linked list, trees, graphs in c)</header>
+        <a href="#Section_1_C_language" class="nav-link">Section 1 C language</a>
+        <a href="#Section_2_Git_open_source_and_git_hub_project_working" class="nav-link">Section 2 Git open source and git hub project working</a>
+        <a href="#Section_3_html-css" class="nav-link">Section 3 html-css</a>
+        <a href="#Section_4_Ms_office,co-space,3d_modelling,3d_printing" class="nav-link">Section 4 Ms office,co-space,3d modelling,3d printing</a>
+        <a href="#Section_5_Data_structures" class="nav-link">Section 5 Data structures</a>
+    </nav>
+
+</body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+ font-sizel:60px;
+    margin: 20px;
+    font-family:Gill-sans;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+  
+    width:11%;
+    background-color:azure;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+      position: fixed;
+    left: 0;
+    top: 0;
+}
+header {
+    background-color:teal;
+    color:azure;
+    padding: 10px;
+}
+
+
+.main-section {
+    margin-bottom: 11px;
+}
+
+.nav-link {
+    margin-bottom: 8px;
+    text-decoration:none;
+    color:teal;
+}
+
+#main-doc h1{
+    font-size:10px;
+}
+
+    main {
+        margin-left: 190px;
+    }
+@media screen and (max-width: 550px) {
+  body {
+ background-colr:azure;
+  }
+}
+.nav-link{}
+
+** end of undefined **
+

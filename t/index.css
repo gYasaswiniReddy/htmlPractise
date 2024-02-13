@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+table,th,td{
+    border: 2px solid black;
+}
+table{
+    width: 90%;
+    height: 50vh;
+    background-color: gray;
+    border-collapse:collapse ;
+}
+th{
+    background-color: aliceblue;
+}
+td{
+    text-align: center;
+}
+.h{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}

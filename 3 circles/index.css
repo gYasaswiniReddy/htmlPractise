@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+}
+
+.main {
+    height: 100vh;
+    width: 100%;
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.main div:nth-child(1) {
+    width: 75%;
+    height: 75%;
+    background-color: green;
+}
+
+.main div:nth-child(2) {
+    width: 50%;
+    height: 50%;
+    background-color: burlywood;
+}
+
+.main div:nth-child(3) {
+    width: 25%;
+    height: 25%;
+    background-color: blue;
+    border-color: rgb(117, 89, 89);
+}
